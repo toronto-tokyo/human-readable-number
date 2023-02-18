@@ -88,7 +88,7 @@ function getNumberLessHundred(number){
         case +number >= 50 && +number < 60:
             return `${fifty} ${decimal(number[1])}`
         case +number >= 60 && +number < 70:
-            return `${six} ${decimal(number[1])}`
+            return `${sixty} ${decimal(number[1])}`
         case +number >= 70 && +number < 80:
             return `${seventy} ${decimal(number[1])}`
         case +number >= 80 && +number < 90:
